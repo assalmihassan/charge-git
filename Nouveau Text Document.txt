@@ -1,0 +1,8 @@
+git clone https://github.com/your-username/your-repo-name.git  # Clone remote GitHub repo to local
+cd your-repo-name                                               # Enter the repo directory
+git checkout -b your-branch-name                                # Create and switch to a new branch
+# Make your changes locally
+git status                                                      # Check status of your files
+git add .                                                       # Stage all modified/added files
+git commit -m "Your commit message"                             # Commit changes with a message
+git push origin your-branch-name                                # Push your branch and commits to GitHub
