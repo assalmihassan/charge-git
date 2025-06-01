@@ -1,10 +1,28 @@
-git clone https://github.com/your-username/your-repo-name.git  # Clone remote GitHub repo to local
-cd your-repo-name                                               # Enter the repo directory
-git checkout -b your-branch-name                                # Create and switch to a new branch
-# Make your changes locally
-git status                                                      # Check status of your files
-git add .                                                       # Stage all modified/added files
-git commit -m "Your commit message"                             # Commit changes with a message
-git push origin your-branch-name                                # Push your branch and commits to GitHub
+1.	Oppen my project folder on Visual Studion
 
-*
+2.	Download the latest changes from GitHub
+    git pull origin main
+
+3.	Modify locally my files 
+Edit, create or delete files as needed … this happens locally
+
+4.	Check for local changes 
+When I am done editing locally, I check local changes
+    git status
+This shows me what has changed 
+
+5.	Stage the files to commits 
+    Git add .
+Or 
+    Git add modified_file_name
+Adds all modified files to the staging area (so Git knows I want to save them).
+
+6.	Commit the Changes
+    git commit -m "Describe_what_I_changed"
+Takes a snapshot of I change — it's saved locally (not yet on GitHub).
+
+7.	Push to GitHub
+    git push origin main
+
+Sends my local commits to the remote repo on GitHub.
+
