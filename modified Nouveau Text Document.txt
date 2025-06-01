@@ -6,3 +6,5 @@ git status                                                      # Check status o
 git add .                                                       # Stage all modified/added files
 git commit -m "Your commit message"                             # Commit changes with a message
 git push origin your-branch-name                                # Push your branch and commits to GitHub
+
+*
