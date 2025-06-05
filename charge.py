@@ -56,7 +56,7 @@ def plot_graphene_lattice_with_Li(carbon_atoms, Li_positions):
                     ax.plot([carbon_atom[0], neighbor_atom[0]], [carbon_atom[1], neighbor_atom[1]], color="gray", linewidth=1, alpha=0.3)
 
     ax.set_xlabel("x-axis (A)", fontsize=12)
-    ax.set_ylabel("y-axis (A)", fontsize=12)
+    ax.set_ylabel("y-axis (A)", fontsize=12)   
     ax.set_title("Graphene Lattice", fontsize=14)
     ax.axis("equal")
     ax.legend()
